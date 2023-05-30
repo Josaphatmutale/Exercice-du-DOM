@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.paragraphe, .paragraphe2 {
+    margin: 15px 0;
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    margin: 0 170px;
+    align-items:baseline;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+li a:hover{
+    border-bottom: 2px solid darkred;
+}
+
+ul li{
+    padding: 0 10px;
+}
+
+#btn-menu{
+    border: 1px solid #ededed;
+    height: 30px;
+    width: 30px;
+}
+
+#btn-menu button:active{
+ color: darkcyan;
+}
+
+#btn-fermer{
+ /* border: none; */
+ border: 1px solid #ededed;
+ height: 25px;
+ width: 25px;
+ /* background-color: white; */
+}
+
+
+
+li a{
+    color: darkred;
+}
+
+li a:active{
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.division{
+    display: flex;
+    gap: 45px;
+    text-align: justify;
+    margin: 10px 105px;
+    align-content: center;
+    padding: 0 55px ;
+}
+
+#disparition-droite{
+    border-radius: 5px;
+    width: 120px;
+    height: 20px;
+    outline: none;
+    border: none;
+    background-color: darksalmon ;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+#disparition-gauche{
+    border-radius: 5px;
+    width: 120px;
+    height: 20px;
+    outline: none;
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+#apparition-gauche {
+    border-radius: 5px;
+    width: 120px;
+    height: 20px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    display: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+#apparition-droite{
+    border-radius: 5px;
+    width: 120px;
+    height: 20px;
+    outline: none;
+    border: none;
+    background-color: darkcyan ;
+    color: white;
+    display: none;
+    cursor: pointer;
+
+}
+
+.titre2{
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+    margin: 10px 0;
+}
+
+
+.titre1{
+    text-decoration:underline;
+    color: red;
+}
+
+#tableau input{
+    background-color: #ededed;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    height: 40px;
+    cursor: pointer;
+}
+
+#tableau{
+    margin: 80px 0;
+    text-align: center;
+}
+
+.section{
+    display: flex;
+    gap: 170px;
+    justify-content: center;
+}
+
+
+.numeros button{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    font-size: 20px;
+    margin: 10px 10px;
+ } 
+
+.signes button{
+    background-color: darkcyan;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    font-size: 20px;
+    margin: 10px 10px;
+ } 
+
+div .clean{
+    background-color: darkcyan;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
+    border: none;
+    margin: 10px 10px;
+ } 
+
+.revenir{
+    color: darkslategrey;    
+}
+
+.lien-calculatrice a:hover{
+    border-bottom: 2px solid darkslategrey ;
+    font-weight: bold;
+}
+
+.lien-calculatrice a:active{
+    border-bottom: 2px solid blue ;
+    color: blue;
+    font-weight: bold;
+}
+
+.lien-calculatrice{
+    text-align: center; 
+    margin: 85px 0;
+}
+
+.paragraphe a:hover{
+    border-bottom: 2px solid deeppink ;
+}
+
+.paragraphe2 a:hover{
+    border-bottom: 2px solid deeppink ;
+}
+
+#autre-page{
+    text-decoration: none;
+    color: deeppink;
+}
+
+
